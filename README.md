@@ -8,6 +8,6 @@ const CodingOIer = {
     funFact: "There are two ways to write error-free programs; only the third one works"
 };
 ```
-[![Naveen's github stats](https://github-readme-stats.vercel.app/api?username=CodingOIer&show_icons=true&theme=merko&hide=["contribs","issues"])](https://github.com/CodingOIer)
+[![Naveen's github stats](https://github-readme-stats.vercel.app/api?username=CodingOIer)](https://github.com/CodingOIer)
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
