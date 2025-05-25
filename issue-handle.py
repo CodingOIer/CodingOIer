@@ -3,6 +3,7 @@ import chess
 import datetime
 
 def appendLog(content):
+    open('./message.txt', 'w', encoding='utf-8').write(content)
     time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open('./log.md', 'r') as f:
         log = f.read()
