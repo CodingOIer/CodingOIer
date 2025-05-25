@@ -1,5 +1,5 @@
 
-## CodingOIer 的社区五子棋锦标赛
+## CodingOIer 的社区国际象棋锦标赛
 
 下一步需[must]棋走棋。
 
