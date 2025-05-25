@@ -118,6 +118,6 @@ def updateReadme():
                 readme = readme.replace(f'[{row}{cnt}]', to)
                 row = chr(ord(row) + 1)
             cnt -= 1
-    readme = readme.replace('[must]', '白' if open('./chess-games/must.txt').read()[0] == 'b' else '黑')
+    readme = readme.replace('[must]', '白' if open('./chess-games/must.txt').read()[0] == 'w' else '黑')
     with open('./README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
