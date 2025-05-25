@@ -1,6 +1,14 @@
 
 ## CodingOIer 的社区五子棋锦标赛
 
+下一步需[must]棋走棋。
+
+参与方法：在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
+
+`!chess|<需要移动的棋子位置>|<想要移动到的位置>` 如 `!chess|A2|A4`。
+
+可以查看 log.md 获取结果，或直接查看下面的棋盘。
+
 |       |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **8** | [a8]  | [b8]  | [c8]  | [d8]  | [e8]  | [f8]  | [g8]  | [h8]  |
