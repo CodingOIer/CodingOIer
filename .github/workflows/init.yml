@@ -1,0 +1,30 @@
+name: Manual Init Runner
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-init:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Clone the target repository
+        run: git clone https://github.com/CodingOIer/CodingOIer
+
+      - name: Change directory
+        run: cd CodingOIer
+
+      - name: Run init.py
+        run: python init.py
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add .
+          git commit -m "重置游戏"
+          git push origin main

@@ -1,0 +1,40 @@
+name: Issue Handler
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-issue:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Clone the target repository
+        run: git clone https://github.com/CodingOIer/CodingOIer
+
+      - name: Change directory
+        run: cd CodingOIer
+
+      - name: Run issue-handle.py
+        run: python issue-handle.py "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
+
+      - name: Check script exit status
+        run: |
+          if [ $? -ne 0 ]; then
+            echo "Python script failed, exiting..."
+            exit 1
+          fi
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add .
+          git reset message.txt
+          MESSAGE=$(cat message.txt)
+          git commit -m "$MESSAGE"
+          git push origin main
