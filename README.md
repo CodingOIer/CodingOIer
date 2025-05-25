@@ -20,9 +20,9 @@ const CodingOIer = {
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | ![](./chess-images/bR.svg)  | ![](./chess-images/bN.svg)  | ![](./chess-images/bB.svg)  | ![](./chess-images/bQ.svg)  | ![](./chess-images/bK.svg)  | ![](./chess-images/bB.svg)  | ![](./chess-images/bN.svg)  | ![](./chess-images/bR.svg)  |
 | **2** | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  |
-| **3** |   |   |   |   |   |   |   |   |
-| **4** |   |   |   |   |   |   |   |   |
-| **5** |   |   |   |   |   |   |   |   |
-| **6** |   |   |   |   |   |   |   |   |
+| **3** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
+| **4** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
+| **5** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
+| **6** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
 | **7** | ![](./chess-images/wP.svg)  | ![](./chess-images/wP.svg)  | ![](./chess-images/wP.svg)  | ![](./chess-images/wP.svg)  | ![](./chess-images/wP.svg)  | ![](./chess-images/wP.svg)  | ![](./chess-images/wP.svg)  | ![](./chess-images/wP.svg)  |
 | **8** | ![](./chess-images/wR.svg)  | ![](./chess-images/wN.svg)  | ![](./chess-images/wB.svg)  | ![](./chess-images/wQ.svg)  | ![](./chess-images/wK.svg)  | ![](./chess-images/wB.svg)  | ![](./chess-images/wN.svg)  | ![](./chess-images/wR.svg)  |
