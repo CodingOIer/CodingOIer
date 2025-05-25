@@ -84,11 +84,15 @@ def tryMove(x, y):
     piece = getPiece(sx, sy)
     if piece == 'nn':
         return 'FAIL-起始位置没有棋子'
+    must = open('./chess-games/must.txt', 'r', encoding='utf-8').read()[0]
+    if must != piece[0]:
+        return f'FAIL-下一步需{'白' if must == 'w' else '黑'}棋走棋'
     if not checkMove(sx, sy, ex, ey, piece):
         return 'FAIL-走法不合法'
     dest = getPiece(ex, ey)
     setPiece(ex, ey, piece)
     setPiece(sx, sy, 'nn')
+    must = open('./chess-games/must.txt', 'w', encoding='utf-8').write('b' if must == 'w' else 'w')
     if dest != 'nn' and dest[1] == 'K':
         if dest[0] == 'w':
             return 'BLACK WIN'
