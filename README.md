@@ -14,7 +14,15 @@ const CodingOIer = {
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
 
-## CodingOIer 的社区五子棋锦标赛
+## CodingOIer 的社区国际象棋锦标赛
+
+下一步需黑棋走棋。
+
+参与方法：在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
+
+`!chess|<需要移动的棋子位置>|<想要移动到的位置>` 如 `!chess|A2|A4`。
+
+可以查看 log.md 获取结果，或直接查看下面的棋盘。
 
 |       |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
