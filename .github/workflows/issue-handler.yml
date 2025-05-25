@@ -13,12 +13,6 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v4
 
-      - name: Clone the target repository
-        run: git clone https://github.com/CodingOIer/CodingOIer
-
-      - name: Change directory
-        run: cd CodingOIer
-
       - name: Run issue-handle.py
         run: python issue-handle.py "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
 

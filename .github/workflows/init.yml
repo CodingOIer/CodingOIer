@@ -12,12 +12,6 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v4
 
-      - name: Clone the target repository
-        run: git clone https://github.com/CodingOIer/CodingOIer
-
-      - name: Change directory
-        run: cd CodingOIer
-
       - name: Run init.py
         run: python init.py
 
