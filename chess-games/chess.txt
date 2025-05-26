@@ -1,8 +1,8 @@
-bR|wP|bB|bQ|bK|bB|bN|bR
-nn|nn|nn|bP|bP|bP|bP|nn
-nn|wP|nn|nn|nn|nn|nn|bP
+bR|bN|bB|bQ|bK|bB|bN|bR
+bP|bP|bP|bP|bP|bP|bP|bP
 nn|nn|nn|nn|nn|nn|nn|nn
 nn|nn|nn|nn|nn|nn|nn|nn
 nn|nn|nn|nn|nn|nn|nn|nn
-nn|nn|wP|wP|wP|wP|wP|wP
-wR|bQ|wB|wQ|wK|wB|wN|wR
+nn|nn|nn|nn|nn|nn|nn|nn
+wP|wP|wP|wP|wP|wP|wP|wP
+wR|wN|wB|wQ|wK|wB|wN|wR
