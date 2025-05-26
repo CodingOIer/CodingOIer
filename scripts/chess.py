@@ -102,9 +102,9 @@ def tryMove(x, y):
 
 def updateReadme():
     readme = ''
-    with open('./README.head.md', 'r', encoding='utf-8') as f:
+    with open('./documents/README.head.md', 'r', encoding='utf-8') as f:
         readme += f.read()
-    with open('./README.chess.md', 'r', encoding='utf-8') as f:
+    with open('./documents/README.chess.md', 'r', encoding='utf-8') as f:
         readme += f.read()
     with open('./chess-games/chess.txt', 'r', encoding='utf-8') as f:
         lines = f.readlines()
