@@ -25,7 +25,7 @@ How to participate:
 
 或者手动提交 Issue：
 
-> 在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
+> 在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，标题如下：
 >
 > - `!move|<需要移动的棋子位置>|<想要移动到的位置>` 来移动棋子，如 `!move|A2|A4`。
 >
@@ -33,7 +33,7 @@ How to participate:
 
 Or submit an issue manually:
 
-> Submit a new issue in the [Issue](https://github.com/CodingOIer/CodingOIer) interface of this [repo](https://github.com/CodingOIer/CodingOIer) in the following format:
+> Submit a new issue in the [Issue](https://github.com/CodingOIer/CodingOIer) interface of this [repo](https://github.com/CodingOIer/CodingOIer) in the title format:
 >
 > - `!move|<position of chess piece to be moved>|<position to be moved>` to move chess pieces, such as `!move|A2|A4`.
 >
