@@ -3,13 +3,21 @@
 
 当前状态：[status]
 
-如果结束，可以点击 [重置]([issue-reset])。
-
 下一步需[must]棋走棋。
 
-参与方法：在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
+参与方法：
 
-`!move|<需要移动的棋子位置>|<想要移动到的位置>` 如 `!move|A2|A4`。
+- 点击下面的任意一个棋子，跳转到对应页面后再点击想要移动到的位置。
+
+- 如果结束，可以点击 [重置]([issue-reset])。
+
+或者手动提交 Issue：
+
+> 在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
+>
+> - `!move|<需要移动的棋子位置>|<想要移动到的位置>` 来移动棋子，如 `!move|A2|A4`。
+>
+> - `!init` 来重置棋盘，当且仅当棋局结束可以使用。
 
 可以查看 git log / `documents/log.md` 获取结果，或直接查看下面的棋盘。
 
