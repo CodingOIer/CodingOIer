@@ -1,5 +1,5 @@
-bR|bN|bB|bQ|bK|bB|bN|bR
-nn|nn|wP|bP|bP|bP|bP|nn
+bR|wP|bB|bQ|bK|bB|bN|bR
+nn|nn|nn|bP|bP|bP|bP|nn
 nn|nn|nn|nn|nn|nn|nn|bP
 nn|nn|nn|nn|nn|nn|nn|nn
 bP|nn|nn|nn|nn|nn|nn|nn
