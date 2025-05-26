@@ -50,7 +50,7 @@ How to participate:
 
 - Click on any of the chess pieces below to jump to the corresponding page and then click on the position you want to move to.
 
-- If you are finished, you can click [Reset]([issue-reset]).
+- If end, you can click [Reset]([issue-reset]).
 
 Or submit an issue manually:
 
