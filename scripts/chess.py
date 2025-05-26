@@ -1,4 +1,15 @@
 import urllib.parse
+import datetime
+
+
+def appendLog(content):
+    time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    with open('./documents/log.md', 'r') as f:
+        log = f.read()
+    log = f'`{time}`：{content}\n\n' + log
+    log = log[:100000]
+    with open('./documents/log.md', 'w') as f:
+        f.write(log)
 
 
 def read_board():
@@ -104,7 +115,8 @@ def tryMove(x, y):
         return 'FAIL-走法不合法'
     dest = getPiece(ex, ey)
     setPiece(ex, ey, piece)
-    if (ex == '1' or ex == '8') and temp[1] == 'P':
+    if (ex == 1 or ex == 8) and temp[1] == 'P':
+        appendLog(f'前往 {ey}{ex} 的棋子为兵，升变为了后')
         temp = piece
         temp[1] = 'Q'
         setPiece(ex, ey, temp)
