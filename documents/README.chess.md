@@ -47,6 +47,10 @@ You can check git log / `documents/log.md` to get the results, or just look at t
 
 If you encounter any problems, please send an email to `i@wanghongtian.com` or submit an issue, but since issues may be piled up, they may not be visible.
 
+同样的，欢迎 PR。
+
+Likewise, PRs are welcome.
+
 |       |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **8** | [a8]  | [b8]  | [c8]  | [d8]  | [e8]  | [f8]  | [g8]  | [h8]  |
