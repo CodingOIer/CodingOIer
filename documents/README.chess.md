@@ -21,6 +21,8 @@
 >
 > - `!init` 来重置棋盘，当且仅当棋局结束可以使用。
 
+下棋逻辑实现比较简陋，部分特殊移动方式可能无法使用，**需要吃掉对方的王才算胜利**。
+
 可以查看 git log / [`documents/log.md`](https://github.com/CodingOIer/CodingOIer/blob/game/documents/log.md) 获取结果，或直接查看下面的棋盘。
 
 如果遇到问题，请发送邮件到 `i@wanghongtian.com` 或提交 Issue，但是由于 Issue 可能堆积，有可能无法看到。
@@ -59,6 +61,8 @@ Or submit an issue manually:
 > - `!move|<position of chess piece to be moved>|<position to be moved>` to move chess pieces, such as `!move|A2|A4`.
 >
 > - `!init` to reset the chessboard, which can be used only when the game is over.
+
+The logic of chess is relatively simple, and some special moves may not be available. **You need to capture the opponent's king to win**.
 
 You can check git log / [`documents/log.md`](https://github.com/CodingOIer/CodingOIer/blob/game/documents/log.md) to get the results, or just look at the board below.
 
