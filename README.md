@@ -16,7 +16,7 @@ const CodingOIer = {
 
 ## CodingOIer 的社区国际象棋锦标赛
 
-下一步需黑棋走棋。
+下一步需白棋走棋。
 
 参与方法：在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
 
@@ -27,8 +27,8 @@ const CodingOIer = {
 |       |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **8** | ![](./chess-images/bR.svg)  | ![](./chess-images/bN.svg)  | ![](./chess-images/bB.svg)  | ![](./chess-images/bQ.svg)  | ![](./chess-images/bK.svg)  | ![](./chess-images/bB.svg)  | ![](./chess-images/bN.svg)  | ![](./chess-images/bR.svg)  |
-| **7** | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  |
-| **6** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
+| **7** | ![](./chess-images/nn.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  | ![](./chess-images/bP.svg)  |
+| **6** | ![](./chess-images/bP.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
 | **5** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
 | **4** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
 | **3** | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/wP.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  | ![](./chess-images/nn.svg)  |
