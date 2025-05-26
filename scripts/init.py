@@ -9,7 +9,7 @@ def appendLog(content):
     with open('./documents/log.md', 'r') as f:
         log = f.read()
     log = f'`{time}`：{content}\n\n' + log
-    log = log[:10000]
+    log = log[:100000]
     with open('./documents/log.md', 'w') as f:
         f.write(log)
 
