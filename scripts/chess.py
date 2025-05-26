@@ -124,6 +124,23 @@ def getIssue(title):
     return f'https://github.com/CodingOIer/CodingOIer/issues/new?title={urlEncode(title)}&body={urlEncode(open('./documents/issue-body.md').read())}'
 
 
+def genLink(id):
+    link = open('./documents/link-init.md').read()
+    with open('./chess-games/chess.txt', 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        cnt = 8
+        for line in lines:
+            pieces = line.split('|')
+            row = 'a'
+            for piece in pieces:
+                piece = piece[:2]
+                to = f'[![](../chess-images/{piece}.svg)]({getIssue(f'!move|{id.upper()}|{row.upper()}{cnt}')})'
+                link = link.replace(f'[{row}{cnt}]', to)
+                row = chr(ord(row) + 1)
+            cnt -= 1
+    open(f'./chess-link/{id.lower()}.md', 'w', encoding='utf-8').write(link)
+
+
 def updateReadme():
     readme = ''
     with open('./documents/README.head.md', 'r', encoding='utf-8') as f:
@@ -137,6 +154,7 @@ def updateReadme():
             pieces = line.split('|')
             row = 'a'
             for piece in pieces:
+                genLink(f'{row}{cnt}')
                 piece = piece[:2]
                 to = f'![](./chess-images/{piece}.svg)'
                 readme = readme.replace(f'[{row}{cnt}]', to)
