@@ -33,4 +33,4 @@ jobs:
           git reset message.txt
           MESSAGE=$(cat message.txt)
           git commit -m "$MESSAGE"
-          git push origin master
+          git push origin game
