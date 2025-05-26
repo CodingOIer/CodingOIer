@@ -117,9 +117,7 @@ def tryMove(x, y):
     setPiece(ex, ey, piece)
     if (ex == 1 or ex == 8) and piece[1] == 'P':
         appendLog(f'前往 {ey}{ex} 的棋子为兵，升变为了后')
-        temp = piece
-        temp[1] = 'Q'
-        setPiece(ex, ey, temp)
+        setPiece(ex, ey, 'wQ' if piece == 'wP' else 'bQ')
     setPiece(sx, sy, 'nn')
     must = open('./chess-games/must.txt', 'w', encoding='utf-8').write(
         'b' if must == 'w' else 'w'
