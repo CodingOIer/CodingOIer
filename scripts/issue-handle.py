@@ -51,4 +51,5 @@ if __name__ == '__main__':
         if end == 'false':
             appendLog(f'{author} 重置棋盘，但是棋局还未结束')
         else:
+            appendLog(f'{author} 重置棋盘，成功')
             init.init()
