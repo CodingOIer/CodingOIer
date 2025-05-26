@@ -115,7 +115,7 @@ def tryMove(x, y):
         return 'FAIL-走法不合法'
     dest = getPiece(ex, ey)
     setPiece(ex, ey, piece)
-    if (ex == 1 or ex == 8) and temp[1] == 'P':
+    if (ex == 1 or ex == 8) and piece[1] == 'P':
         appendLog(f'前往 {ey}{ex} 的棋子为兵，升变为了后')
         temp = piece
         temp[1] = 'Q'
