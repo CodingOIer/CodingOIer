@@ -21,7 +21,7 @@
 >
 > - `!init` 来重置棋盘，当且仅当棋局结束可以使用。
 
-可以查看 git log / `documents/log.md` 获取结果，或直接查看下面的棋盘。
+可以查看 git log / [`documents/log.md`](https://github.com/CodingOIer/CodingOIer/blob/game/documents/log.md) 获取结果，或直接查看下面的棋盘。
 
 如果遇到问题，请发送邮件到 `i@wanghongtian.com` 或提交 Issue，但是由于 Issue 可能堆积，有可能无法看到。
 
@@ -60,7 +60,7 @@ Or submit an issue manually:
 >
 > - `!init` to reset the chessboard, which can be used only when the game is over.
 
-You can check git log / `documents/log.md` to get the results, or just look at the board below.
+You can check git log / [`documents/log.md`](https://github.com/CodingOIer/CodingOIer/blob/game/documents/log.md) to get the results, or just look at the board below.
 
 If you encounter any problems, please send an email to `i@wanghongtian.com` or submit an issue, but since issues may be piled up, they may not be visible.
 
