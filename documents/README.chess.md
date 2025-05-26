@@ -1,6 +1,8 @@
 
 ## CodingOIer 的社区国际象棋锦标赛
 
+当前状态：[status]
+
 下一步需[must]棋走棋。
 
 参与方法：在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
