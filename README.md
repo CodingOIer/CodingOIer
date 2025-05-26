@@ -20,9 +20,9 @@ const CodingOIer = {
 
 参与方法：在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
 
-`!chess|<需要移动的棋子位置>|<想要移动到的位置>` 如 `!chess|A2|A4`。
+`!move|<需要移动的棋子位置>|<想要移动到的位置>` 如 `!move|A2|A4`。
 
-可以查看 log.md 获取结果，或直接查看下面的棋盘。
+可以查看 git log / `documents/log.md` 获取结果，或直接查看下面的棋盘。
 
 |       |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
