@@ -27,7 +27,6 @@ def chessMove():
     y = args[2]
 
     response = chess.tryMove(x, y)
-    chess.updateReadme()
 
     if response == 'OK' or response[:4] == 'FAIL':
         appendLog(f'{author} 移动棋子从 {x} 到 {y}，结果是 {response}')
@@ -37,6 +36,8 @@ def chessMove():
     elif response == 'WHITE WIN':
         appendLog(f'{author} 移动棋子从 {x} 到 {y}，白棋胜利')
         open('./chess-games/end.txt', 'w', encoding='utf-8').write('true')
+
+    chess.updateReadme()
 
 
 if __name__ == '__main__':
