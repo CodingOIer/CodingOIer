@@ -3,7 +3,7 @@
 
 当前状态：[status]
 
-如果结束，可以点击 [重置](https://github.com/CodingOIer/CodingOIer/issue/new?title=%21init&body=[issue-body])。
+如果结束，可以点击 [重置]([issue-reset])。
 
 下一步需[must]棋走棋。
 

@@ -120,6 +120,10 @@ def urlEncode(text):
     return urllib.parse.quote(text)
 
 
+def getIssue(title):
+    return f'https://github.com/CodingOIer/CodingOIer/issues/new?title={urlEncode(title)}&body={urlEncode(open('./documents/issue-body.md').read())}'
+
+
 def updateReadme():
     readme = ''
     with open('./documents/README.head.md', 'r', encoding='utf-8') as f:
@@ -153,8 +157,6 @@ def updateReadme():
             )
         ),
     )
-    readme = readme.replace(
-        '[issue-body]', urlEncode(open('./documents/issue-body.md').read())
-    )
+    readme = readme.replace('[issue-reset]', getIssue('!init'))
     with open('./README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
