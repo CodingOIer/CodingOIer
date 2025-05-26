@@ -1,3 +1,6 @@
+import urllib.parse
+
+
 def read_board():
     with open('./chess-games/chess.txt', 'r') as f:
         lines = f.read().strip().split('\n')
@@ -113,6 +116,10 @@ def tryMove(x, y):
     return 'OK'
 
 
+def urlEncode(text):
+    return urllib.parse.quote(text)
+
+
 def updateReadme():
     readme = ''
     with open('./documents/README.head.md', 'r', encoding='utf-8') as f:
@@ -145,6 +152,9 @@ def updateReadme():
                 else '黑棋胜利'
             )
         ),
+    )
+    readme = readme.replace(
+        '[issue-body]', urlEncode(open('./documents/issue-body.md').read())
     )
     with open('./README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
