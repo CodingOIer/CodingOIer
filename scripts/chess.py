@@ -104,6 +104,10 @@ def tryMove(x, y):
         return 'FAIL-走法不合法'
     dest = getPiece(ex, ey)
     setPiece(ex, ey, piece)
+    if (ex == '1' or ex == '8') and temp[1] == 'P':
+        temp = piece
+        temp[1] = 'Q'
+        setPiece(ex, ey, temp)
     setPiece(sx, sy, 'nn')
     must = open('./chess-games/must.txt', 'w', encoding='utf-8').write(
         'b' if must == 'w' else 'w'
