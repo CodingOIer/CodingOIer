@@ -3,6 +3,8 @@
 
 当前状态：[status]
 
+如果结束，可以点击 [重置](https://github.com/CodingOIer/CodingOIer/issue/new?title=%21init&body=[issue-body])。
+
 下一步需[must]棋走棋。
 
 参与方法：在本 [repo](https://github.com/CodingOIer/CodingOIer) 的 [Issue](https://github.com/CodingOIer/CodingOIer/issues) 界面提交一个新的 Issue，格式如下：
