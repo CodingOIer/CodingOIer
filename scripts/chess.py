@@ -138,7 +138,7 @@ def genLink(id):
                 link = link.replace(f'[{row}{cnt}]', to)
                 row = chr(ord(row) + 1)
             cnt -= 1
-    open(f'./chess-link/{id.lower()}.md', 'w', encoding='utf-8').write(link)
+    open(f'./chess-links/{id.lower()}.md', 'w', encoding='utf-8').write(link)
 
 
 def updateReadme():
@@ -156,7 +156,7 @@ def updateReadme():
             for piece in pieces:
                 genLink(f'{row}{cnt}')
                 piece = piece[:2]
-                to = f'![](./chess-images/{piece}.svg)'
+                to = f'[![](./chess-images/{piece}.svg)](./chess-links/{row}{cnt}.md)'
                 readme = readme.replace(f'[{row}{cnt}]', to)
                 row = chr(ord(row) + 1)
             cnt -= 1
