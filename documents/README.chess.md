@@ -1,15 +1,27 @@
 
 ## CodingOIer 的社区国际象棋锦标赛
 
+## CodingOIer's Community Chess Championship
+
 当前状态：[status]
 
+Current status: [status-en]
+
 下一步需[must]棋走棋。
+
+The next step requires [must-en] chess moves.
 
 参与方法：
 
 - 点击下面的任意一个棋子，跳转到对应页面后再点击想要移动到的位置。
 
 - 如果结束，可以点击 [重置]([issue-reset])。
+
+How to participate:
+
+- Click on any of the chess pieces below to jump to the corresponding page and then click on the position you want to move to.
+
+- If you are finished, you can click [Reset]([issue-reset]).
 
 或者手动提交 Issue：
 
@@ -19,9 +31,21 @@
 >
 > - `!init` 来重置棋盘，当且仅当棋局结束可以使用。
 
+Or submit an issue manually:
+
+> Submit a new issue in the [Issue](https://github.com/CodingOIer/CodingOIer) interface of this [repo](https://github.com/CodingOIer/CodingOIer) in the following format:
+>
+> - `!move|<position of chess piece to be moved>|<position to be moved>` to move chess pieces, such as `!move|A2|A4`.
+>
+> - `!init` to reset the chessboard, which can be used only when the game is over.
+
 可以查看 git log / `documents/log.md` 获取结果，或直接查看下面的棋盘。
 
+You can check git log / `documents/log.md` to get the results, or just look at the board below.
+
 如果遇到问题，请发送邮件到 `i@wanghongtian.com` 或提交 Issue，但是由于 Issue 可能堆积，有可能无法看到。
+
+If you encounter any problems, please send an email to `i@wanghongtian.com` or submit an issue, but since issues may be piled up, they may not be visible.
 
 |       |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

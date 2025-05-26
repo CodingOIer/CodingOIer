@@ -164,6 +164,10 @@ def updateReadme():
         '[must]', '白' if open('./chess-games/must.txt').read()[0] == 'w' else '黑'
     )
     readme = readme.replace(
+        '[must-en]',
+        'WHITE' if open('./chess-games/must.txt').read()[0] == 'w' else 'BLACK',
+    )
+    readme = readme.replace(
         '[status]',
         (
             '正在对局'
@@ -172,6 +176,18 @@ def updateReadme():
                 '白棋胜利'
                 if open('./chess-games/must.txt').read()[0] == 'b'
                 else '黑棋胜利'
+            )
+        ),
+    )
+    readme = readme.replace(
+        '[status-en]',
+        (
+            'PLAYING'
+            if open('./chess-games/end.txt').read() == 'false'
+            else (
+                'White Wins'
+                if open('./chess-games/must.txt').read()[0] == 'b'
+                else 'Black Wins'
             )
         ),
     )
