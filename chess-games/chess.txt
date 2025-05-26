@@ -3,6 +3,6 @@ nn|nn|nn|bP|bP|bP|bP|nn
 nn|nn|nn|nn|nn|nn|nn|bP
 nn|nn|nn|nn|nn|nn|nn|nn
 nn|wP|nn|nn|nn|nn|nn|nn
-bP|nn|nn|nn|nn|nn|nn|nn
-nn|nn|wP|wP|wP|wP|wP|wP
+nn|nn|nn|nn|nn|nn|nn|nn
+bP|nn|wP|wP|wP|wP|wP|wP
 wR|wN|wB|wQ|wK|wB|wN|wR
