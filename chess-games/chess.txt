@@ -2,7 +2,7 @@ bR|nn|nn|bQ|bK|bB|bN|bR
 bP|bP|bP|nn|bP|bP|bP|bP
 nn|nn|bN|nn|nn|nn|nn|nn
 nn|nn|nn|bP|nn|bB|wB|nn
-nn|nn|nn|wP|nn|nn|nn|nn
+nn|nn|nn|wP|nn|nn|wP|nn
 nn|nn|wN|nn|nn|nn|nn|wP
-wP|wP|wP|nn|wP|wP|wP|nn
+wP|wP|wP|nn|wP|wP|nn|nn
 wR|nn|nn|wQ|wK|wB|wN|wR
