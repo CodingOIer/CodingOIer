@@ -1,7 +1,7 @@
 bR|nn|nn|bQ|bK|bB|bN|bR
 bP|bP|nn|nn|nn|bP|nn|bP
-nn|nn|bP|nn|nn|nn|nn|nn
-nn|nn|nn|bP|nn|nn|nn|nn
+nn|nn|nn|nn|nn|nn|nn|nn
+nn|nn|bP|bP|nn|nn|nn|nn
 nn|bN|nn|wP|nn|nn|nn|nn
 nn|nn|wN|nn|bP|nn|nn|wP
 wP|wP|wP|nn|wP|wP|nn|nn
