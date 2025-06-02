@@ -1,3 +1,5 @@
+`2025-06-02 03:42:57`：acangcang-Eliauk 移动棋子从 H1 到 H3，结果是 OK
+
 `2025-06-02 03:42:44`：acangcang-Eliauk 移动棋子从 F8 到 A3，结果是 OK
 
 `2025-06-02 03:42:15`：acangcang-Eliauk 移动棋子从 H3 到 G3，结果是 FAIL-起始位置没有棋子
