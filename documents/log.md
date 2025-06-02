@@ -1,3 +1,5 @@
+`2025-06-02 03:43:38`：acangcang-Eliauk 移动棋子从 H3 到 G3，结果是 OK
+
 `2025-06-02 03:43:11`：acangcang-Eliauk 移动棋子从 A3 到 B4，结果是 OK
 
 `2025-06-02 03:42:57`：acangcang-Eliauk 移动棋子从 H1 到 H3，结果是 OK
