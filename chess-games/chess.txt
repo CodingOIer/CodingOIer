@@ -4,5 +4,5 @@ nn|nn|bN|nn|nn|nn|nn|nn
 nn|nn|nn|nn|nn|nn|nn|nn
 nn|bB|nn|nn|nn|wP|nn|wP
 wP|wP|wN|nn|nn|nn|wR|nn
-nn|nn|bP|nn|wP|nn|wP|nn
-wR|nn|wB|wQ|wK|wB|wN|nn
+nn|nn|nn|nn|wP|nn|wP|nn
+wR|nn|wB|bQ|wK|wB|wN|nn
