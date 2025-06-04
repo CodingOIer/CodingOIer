@@ -1,3 +1,5 @@
+`2025-06-04 12:01:22`：YANGRENRUIYRR 移动棋子从 D2 到 D3，结果是 OK
+
 `2025-06-04 12:00:44`：YANGRENRUIYRR 移动棋子从 E5 到 E4，结果是 OK
 
 `2025-06-02 03:43:38`：acangcang-Eliauk 移动棋子从 H3 到 G3，结果是 OK
